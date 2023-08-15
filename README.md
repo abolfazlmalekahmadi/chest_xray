@@ -36,6 +36,15 @@ Pretrained on COCO dataset.
 |GIT |GIT/GIT_test.ipynb|
 |GIT results(images with generated captions)|GIT/GIT_test.ipynb|
 
+# Evaluation table
+|Model        |average Bleu        | 
+| ------------- |:-------------:|
+|CNN-LSTM  Beam-serach    |0.1521 |
+|CNN-LSTM  Greedy-search     |0.1482|
+|Blip      |0.205 |
+|GIT |0.212 |
+
+
 # Contributors
 |Name        |Mail        | 
 | ------------- |:-------------:|
