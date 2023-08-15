@@ -21,7 +21,7 @@ Our base model is based on encoder-decoder architecture. In the image encoder pa
 This model has used ViT-L/16 for the image encoder part and Bert model for the text encoder part. Pretrained on COCO dataset.
 ![Alt Text](https://production-media.paperswithcode.com/methods/bf9bd9a4-da80-4059-bdc1-3f49549d4044.png)
 
-# 2️⃣ GIT
+# 3️⃣ GIT
 GIT is a Transformer decoder conditioned on both CLIP image tokens and text tokens. The model is trained using "teacher forcing" on a lot of (image, text) pairs. The goal for the model is simply to predict the next text token, giving the image tokens and previous text tokens.
 Pretrained on COCO dataset.
 ![Alt Text](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/git_architecture.jpg)
